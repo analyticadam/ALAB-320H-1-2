@@ -72,3 +72,11 @@ footer {
 	padding-bottom: 2rem;
 	color: lightgray;
 }
+
+article p::first-letter {
+	font-size: 4em;
+	color: darkgray;
+
+	float: left;
+	margin-right: 5px;
+}

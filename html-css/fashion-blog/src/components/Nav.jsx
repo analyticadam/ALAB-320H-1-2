@@ -1,26 +1,43 @@
+// Nav.jsx
 import React from "react";
 
 function Nav() {
 	return (
-		<nav aria-label="Main Navigation" role="navigation">
-			<ul className="nav-UL">
+		<nav
+			aria-label="Main Navigation"
+			role="navigation"
+			className="nav-container"
+		>
+			<ul className="nav-list">
 				<li>
-					<a href="#">Women's</a>
+					<a href="#" className="nav-link">
+						Women's
+					</a>
 				</li>
 				<li>
-					<a href="#">Men's</a>
+					<a href="#" className="nav-link">
+						Men's
+					</a>
 				</li>
 				<li>
-					<a href="#">On the Street</a>
+					<a href="#" className="nav-link">
+						On the Street
+					</a>
 				</li>
 				<li>
-					<a href="#">The Catwalk</a>
+					<a href="#" className="nav-link">
+						The Catwalk
+					</a>
 				</li>
 				<li>
-					<a href="#">AdWatch</a>
+					<a href="#" className="nav-link">
+						AdWatch
+					</a>
 				</li>
 				<li>
-					<a href="#">About</a>
+					<a href="#" className="nav-link">
+						About
+					</a>
 				</li>
 			</ul>
 		</nav>
