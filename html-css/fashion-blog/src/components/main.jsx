@@ -1,32 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Fashion Blog</title>
-		<link rel="stylesheet" href="styles/style.css" />
-	</head>
-	<body>
-		<header>
-			<h1 class="title">Sartre's List</h1>
-			<h2 class="sub-title">Better-Dressed People</h2>
-			<nav aria-label="Main Navigation" role="navigation">
-				<ul class="nav-UL">
-					<li><a href="">Women's</a></li>
-					<li><a href="">Men's</a></li>
-					<li><a href="">On the Steet</a></li>
-					<li><a href="">The Catwalk</a></li>
-					<li><a href="">AdWatch</a></li>
-					<li><a href="">About</a></li>
-				</ul>
-			</nav>
-		</header>
+function Main() {
+	return (
 		<main>
-			<!-- Article 1 -->
 			<article>
 				<h3>11/12/20</h3>
-				<h1 #="head-line">On the Street in Brooklyn</h1>
-				<img src="./images/blog-image-1.jpg" alt="" />
+				<h1 id="head-line">On the Street in Brooklyn</h1>
+				<img src="../public/blog-image-1.jpg" alt="" />
 				<p>
 					<span>C</span>ray Lorem ipsum dolor sit amet consectetur adipisicing
 					elit. Nihil veniam dicta error rem repellendus iusto voluptatem at
@@ -43,11 +21,11 @@
 					<a href="">Continues...</a>
 				</div>
 			</article>
-			<!-- Article 2 -->
+
 			<article>
 				<h3>11/11/20</h3>
-				<h1 #="head-line">Vintage in Vogue</h1>
-				<img src="./images/blog-image-2.jpg" alt="" />
+				<h1 id="head-line">Vintage in Vogue</h1>
+				<img src="../public/blog-image-2.jpg" alt="" />
 				<p>
 					<span>S</span>ray Lorem ipsum dolor sit amet consectetur adipisicing
 					elit. Nihil veniam dicta error rem repellendus iusto voluptatem at
@@ -65,20 +43,7 @@
 				</div>
 			</article>
 		</main>
-		<footer>
-			<nav aria-label="Main Navigation" role="navigation">
-				<ul class="footer-UL">
-					<li><a href="">Home</a></li>
-					<li><a href="">Women's</a></li>
-					<li><a href="">Men's</a></li>
-					<li><a href="">On the Street</a></li>
-					<li><a href="">The Catwalk</a></li>
-					<li><a href="">AdWatch</a></li>
-					<li><a href="">About</a></li>
-					<li><a href="">Tips</a></li>
-				</ul>
-				&#169;2013 Valet Industries, Inc
-			</nav>
-		</footer>
-	</body>
-</html>
+	);
+}
+
+export default Main;

@@ -1,38 +1,35 @@
-// Footer.jsx
-import React from "react";
-
 function Footer() {
 	return (
-		<footer className="footer-container">
-			<nav aria-label="Footer Navigation" role="navigation">
-				<ul className="footer-nav">
+		<footer>
+			<nav aria-label="Main Navigation" role="navigation">
+				<ul className="footer-UL">
 					<li>
-						<a href="#">Home</a>
+						<a href="">Home</a>
 					</li>
 					<li>
-						<a href="#">Women's</a>
+						<a href="">Women's</a>
 					</li>
 					<li>
-						<a href="#">Men's</a>
+						<a href="">Men's</a>
 					</li>
 					<li>
-						<a href="#">On the Street</a>
+						<a href="">On the Street</a>
 					</li>
 					<li>
-						<a href="#">The Catwalk</a>
+						<a href="">The Catwalk</a>
 					</li>
 					<li>
-						<a href="#">AdWatch</a>
+						<a href="">AdWatch</a>
 					</li>
 					<li>
-						<a href="#">About</a>
+						<a href="">About</a>
 					</li>
 					<li>
-						<a href="#">Tips</a>
+						<a href="">Tips</a>
 					</li>
 				</ul>
+				&#169;2013 Valet Industries, Inc
 			</nav>
-			<p className="footer-copyright">&#169; 2013 Valet Industries, Inc</p>
 		</footer>
 	);
 }
